@@ -1,0 +1,41 @@
+body {
+    background-color: #fbfaee;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.site-title {
+    font-size: 40px;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.button {
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+}

@@ -1,0 +1,79 @@
+/**
+ * Girl Develop It theme for reveal.js.
+ *
+ * Built by Josh Medeski
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400);
+
+// Colors
+$pink: #fe5c63;
+$gold: #d8ae64;
+$blue: #01a9b4;
+$green: #92bb44;
+$maroon: #8b0036;
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #ffffff;
+
+$mainFont: 'Roboto', sans-serif;
+$mainColor: #000000;
+$linkColor: $gold;
+$linkColorHover: #000000;
+$headingFont: 'Roboto', sans-serif;
+$headingColor: #000000;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$selectionBackgroundColor: $gold;
+$mainFontSize: 30px;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+body {
+  background: url(../../images/bg.png) repeat;
+}
+
+.reveal a {
+  font-style: italic;
+}
+
+.reveal .progress span {
+  background: $pink;
+}
+
+.share-reveal {
+  display: block;
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  margin-left: -230px;
+  z-index: 20;
+}
+
+.share-reveal__button {
+  position: relative;
+  background: $gold;
+  padding: 4px 10px;
+  font-weight: bold;
+  font: normal bold normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  top: -5px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+strong {
+  color: $pink;
+}
